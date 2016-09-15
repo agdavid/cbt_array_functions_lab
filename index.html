@@ -1,11 +1,26 @@
 <!DOCTYPE html>
 <html>
+  
   <head>
     <meta charset="utf-8">
     <title>Array Functions Lab</title>
   </head>
-  <body>
   
+  <body>
+    
+    <table>
+      <td><input type="text" id="newValue"/></td>
+      <td><input type="button" id="arrayPush" value="Add to End" onclick="arrayPush()"></td>
+      <td><input type="button" id="arrayPop" value="Remove from End" onclick="arrayPop()"></td>
+      <td><input type="button" id="arrayUnshift" value="Add to Front" onclick="arrayUnshift()"></td>
+      <td><input type="button" id="arrayShift" value="Remove from Front" onclick="arrayShift()"></td>
+    </table>
+    
+    <hr>
+    
+    <div id="arrayCount"></div>
+    <div id="arrayResults"></div>
+
     <script type="text/javascript" src="js/app.js"></script>
   </body>
 </html>
